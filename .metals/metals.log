@@ -1929,3 +1929,27 @@ No given instance of type List[MdocApp.this.Vuelo] => IterableOnce[List[MdocApp.
       itinerarios.flatten // Aplanamos la lista de itinerarios generados
                          ^
 2024.05.14 17:25:12 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.43s[0m
+2024.05.14 17:27:41 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:27:41 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:27:41 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.61s[0m
+2024.05.14 17:27:41 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.53s[0m
+2024.05.14 17:28:35 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:28:35 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.54s[0m
+2024.05.14 17:28:53 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:28:54 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.52s[0m
+May 14, 2024 5:32:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15123
+2024.05.14 17:33:23 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:33:23 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.67s[0m
+2024.05.14 17:33:28 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:33:28 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.66s[0m
+May 14, 2024 5:37:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15494
+2024.05.14 17:52:17 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:52:17 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.58s[0m
+2024.05.14 17:52:21 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:52:21 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.65s[0m
+2024.05.14 17:54:07 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:54:07 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.6s[0m
+2024.05.14 17:54:21 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:54:21 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.55s[0m

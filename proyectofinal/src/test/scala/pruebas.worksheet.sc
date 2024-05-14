@@ -168,7 +168,7 @@ def itinerarios(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (String, St
 
 // Uso de la función itinerarios
 val obtenerItinerarios = itinerarios(vuelosCurso, aeropuertosCurso)
-val obtenerItinerarios3=itinerariosInversos(vuelosCurso,aeropuertosCurso)
+val obtenerItinerarios3=itinerariosInversos2(vuelosCurso,aeropuertosCurso)
 //val itinerariosPosibles = obtenerItinerarios("CLO", "SVO")
 //itinerariosPosibles.foreach(println)
 
@@ -250,7 +250,6 @@ val aeropuertosMap = aeropuertos.map(airport => airport.cod -> airport).toMap
   }
 }
    
-
 def itinerariosInversos(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (String, String) => List[Itinerario] = {
   val aeropuertosMap = aeropuertos.map(airport => airport.cod -> airport).toMap
 
@@ -259,13 +258,13 @@ def itinerariosInversos(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (St
       List(Nil)
     else {
       val vuelosHastaCod2 = vuelos.filter(_.Dst == cod2)
-      val itinerarios = for {
-        v <- vuelosHastaCod2
-        if !visitados(v.Org)
-        itRestante <- formarItinerarios(cod1, v.Org, visitados + v.Org)
-      } yield v :: itRestante
-
-      itinerarios.flatten // Aplanamos la lista de itinerarios generados
+      vuelosHastaCod2.flatMap { v =>
+        if (!visitados(v.Org)) {
+          formarItinerarios(cod1, v.Org, visitados + v.Org).map(_:+v)
+        } else {
+          Nil
+        }
+      }
     }
   }
 
@@ -274,14 +273,40 @@ def itinerariosInversos(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (St
     val aeropuerto2 = aeropuertosMap.get(cod2)
     (aeropuerto1, aeropuerto2) match {
       case (Some(airport1), Some(airport2)) =>
-        formarItinerarios(cod1, cod2, Set(cod2)) // Comenzamos desde el aeropuerto de destino (cod2)
+        formarItinerarios(cod1, cod2, Set(cod2)) // Empezamos desde el aeropuerto de destino (cod2)
       case _ => Nil // Si alguno de los aeropuertos no existe, devolver una lista vacía
     }
   }
 }
 
 
+def itinerariosInversos2(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (String, String) => List[Itinerario] = {
+  val aeropuertosMap = aeropuertos.map(airport => airport.cod -> airport).toMap
 
-  
+  def formarItinerarios(cod1: String, cod2: String, visitados: Set[String]): List[Itinerario] = {
+    if (cod1 == cod2)
+      List(Nil)
+    else {
+      val vuelosHastaCod2 = vuelos.filter(_.Dst == cod2)
+
+      for{
+        v<-vuelosHastaCod2
+        if!visitados(v.Org)
+        itRestante<-formarItinerarios(cod1,v.Org,visitados + v.Org)
+      }yield itRestante:+v
+
+    }
+  }
+
+  (cod1: String, cod2: String) => {
+    val aeropuerto1 = aeropuertosMap.get(cod1)
+    val aeropuerto2 = aeropuertosMap.get(cod2)
+    (aeropuerto1, aeropuerto2) match {
+      case (Some(airport1), Some(airport2)) =>
+        formarItinerarios(cod1, cod2, Set(cod2)) // Empezamos desde el aeropuerto de destino (cod2)
+      case _ => Nil // Si alguno de los aeropuertos no existe, devolver una lista vacía
+    }
+  }
+} 
 
 
