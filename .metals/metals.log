@@ -1330,3 +1330,602 @@ aeropuertosCurso.map(aeropuerto=>aeropuerto.cod->aeropueto)
 2024.05.14 09:43:06 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.78s[0m
 2024.05.14 09:43:27 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
 2024.05.14 09:43:27 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.66s[0m
+2024.05.14 10:09:43 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 10:09:44 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.83s[0m
+2024.05.14 10:09:52 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 10:09:52 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.67s[0m
+2024.05.14 10:10:01 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 10:10:02 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.85s[0m
+2024.05.14 10:10:11 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 10:10:12 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.56s[0m
+2024.05.14 15:00:33 INFO  Started: Metals version 1.3.0 in folders '/home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode' for client Visual Studio Code 1.87.2.[0m
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@6cf21c1d]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@7e677ffc]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6cf21c1d]
+2024.05.14 15:00:36 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.05.14 15:00:36 INFO  Attempting to connect to the build server...[0m
+2024.05.14 15:00:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/.metals/bsp.trace.json or /home/andresuv/.cache/metals/bsp.trace.json[0m
+2024.05.14 15:00:39 INFO  time: Connected to build server in 2.73s[0m
+2024.05.14 15:00:39 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.05.14 15:00:39 INFO  time: Imported build in 0.11s[0m
+2024.05.14 15:00:41 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.14 15:00:42 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.14 15:00:42 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.14 15:00:42 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.14 15:00:42 INFO  time: indexed workspace in 0.78s[0m
+2024.05.14 15:00:42 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:193:1: declaration requires a type
+}
+^
+2024.05.14 15:00:45 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 2.7s[0m
+2024.05.14 15:00:45 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:193:1: declaration requires a type
+}
+^
+2024.05.14 15:00:45 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.57s[0m
+2024.05.14 15:00:46 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.14 15:00:46 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.14 15:00:48 INFO  time: code lens generation in 3.38s[0m
+2024.05.14 15:00:48 INFO  time: code lens generation in 3.38s[0m
+2024.05.14 15:00:48 INFO  time: code lens generation in 3.38s[0m
+2024.05.14 15:00:48 INFO  time: code lens generation in 3.38s[0m
+May 14, 2024 3:03:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 138
+2024.05.14 15:06:48 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:193:1: illegal start of simple pattern
+}
+^
+2024.05.14 15:06:48 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.42s[0m
+2024.05.14 15:10:15 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:193:1: illegal start of simple pattern
+}
+^
+2024.05.14 15:10:15 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.37s[0m
+May 14, 2024 3:18:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2593
+2024.05.14 15:20:44 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:15: 
+Not found: generarItinerarios
+      } yield generarItinerarios(cod1,v.Org,visitados + v)
+              ^^^^^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:57: 
+Found:    (v : MdocApp.this.Vuelo)
+Required: String
+      } yield generarItinerarios(cod1,v.Org,visitados + v)
+                                                        ^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:203:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:20:45 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.88s[0m
+2024.05.14 15:21:34 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:15: 
+Not found: generarItinerarios
+      } yield generarItinerarios(cod1,v.Org,visitados + v)
+              ^^^^^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:57: 
+Found:    (v : MdocApp.this.Vuelo)
+Required: String
+      } yield generarItinerarios(cod1,v.Org,visitados + v)
+                                                        ^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:203:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:21:35 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.67s[0m
+2024.05.14 15:23:18 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:67: 
+Found:    List[MdocApp.this.Vuelo]
+Required: MdocApp.this.Vuelo
+      } yield formarItinerarios(cod1,v.Org,visitados + v.Org).map(_:+v)
+                                                                  ^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:203:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:23:18 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.51s[0m
+2024.05.14 15:24:39 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:67: 
+Found:    List[MdocApp.this.Vuelo]
+Required: MdocApp.this.Vuelo
+      } yield formarItinerarios(cod1,v.Org,visitados + v.Org).map(_:+v)
+                                                                  ^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:203:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:24:40 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.53s[0m
+2024.05.14 15:29:19 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:201:59: 
+Found:    List[MdocApp.this.Vuelo]
+Required: MdocApp.this.Vuelo
+      formarItinerarios(cod1,v.Org,visitados + v.Org).map(_:+v)
+                                                          ^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:4: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+  }
+   ^
+2024.05.14 15:29:20 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.44s[0m
+2024.05.14 15:31:41 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:201:63: 
+Found:    List[MdocApp.this.Vuelo]
+Required: MdocApp.this.Vuelo
+      formarItinerarios(cod1,v.Org,visitados + v.Org).map(it=>it:+v)
+                                                              ^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:4: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+  }
+   ^
+2024.05.14 15:31:42 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.41s[0m
+2024.05.14 15:36:52 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:202:36: 
+Found:    List[MdocApp.this.Vuelo]
+Required: MdocApp.this.Vuelo
+          itinerariosFaltantes.map(_:+v)
+                                   ^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:209:4: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+  }
+   ^
+[33mwarning[39m: 
+pruebas.worksheet.sc:213 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+              itinerariosFaltantes.map(_:+v)
+
+
+2024.05.14 15:36:52 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.4s[0m
+2024.05.14 15:38:20 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:202:36: 
+Found:    List[MdocApp.this.Vuelo]
+Required: MdocApp.this.Vuelo
+          itinerariosFaltantes.map(v::_)
+                                   ^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:208:4: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+  }
+   ^
+[33mwarning[39m: 
+pruebas.worksheet.sc:213 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+              itinerariosFaltantes.map(v::_)
+
+
+2024.05.14 15:38:21 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.42s[0m
+2024.05.14 15:39:15 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:202:11: 
+Found:    (4 : Int)
+Required: List[MdocApp.this.Vuelo]
+          2+2
+          ^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:208:4: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+  }
+   ^
+2024.05.14 15:39:16 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.39s[0m
+2024.05.14 15:40:27 ERROR scalafmt: <input>:204: error: [dialect scala213] illegal start of simple expression
+    }}}
+    ^[0m
+May 14, 2024 3:41:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5427
+May 14, 2024 3:41:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5428
+2024.05.14 15:43:34 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:199:23: 
+Not found: vuelo
+        if(!visitados(vuelo.Org))
+                      ^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:67: 
+Found:    List[MdocApp.this.Vuelo]
+Required: MdocApp.this.Vuelo
+      } yield formarItinerarios(cod2,v.Org,visitados + v.Org).map(v::_)
+                                                                  ^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:207:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:43:34 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.39s[0m
+2024.05.14 15:43:54 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:199:23: 
+Not found: vuelo
+        if(!visitados(vuelo.Org))
+                      ^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:15: 
+Found:    List[MdocApp.this.Itinerario]
+Required: List[MdocApp.this.Vuelo]
+      } yield formarItinerarios(cod2,v.Org,visitados + v.Org)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:43:54 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.41s[0m
+2024.05.14 15:44:02 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:15: 
+Found:    List[MdocApp.this.Itinerario]
+Required: List[MdocApp.this.Vuelo]
+      } yield formarItinerarios(cod2,v.Org,visitados + v.Org)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:44:02 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.36s[0m
+2024.05.14 15:47:18 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:15: 
+Found:    List[MdocApp.this.Itinerario]
+Required: List[MdocApp.this.Vuelo]
+      } yield formarItinerarios(cod1,v.Org,visitados + v.Org)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:47:18 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.32s[0m
+May 14, 2024 3:54:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7704
+2024.05.14 15:54:56 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:208:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:54:56 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.32s[0m
+2024.05.14 15:55:10 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:208:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:55:11 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.43s[0m
+2024.05.14 15:55:19 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:208:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:55:19 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.32s[0m
+2024.05.14 15:55:53 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:209:23: 
+Not found: aeropuertosMap
+    val aeropuerto1 = aeropuertosMap.get(cod1)
+                      ^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:210:23: 
+Not found: aeropuertosMap
+    val aeropuerto2 = aeropuertosMap.get(cod2)
+                      ^^^^^^^^^^^^^^
+2024.05.14 15:55:53 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.3s[0m
+2024.05.14 15:56:09 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:209:23: 
+Not found: aeropuertosMap
+    val aeropuerto1 = aeropuertosMap.get(cod1)
+                      ^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:210:23: 
+Not found: aeropuertosMap
+    val aeropuerto2 = aeropuertosMap.get(cod2)
+                      ^^^^^^^^^^^^^^
+2024.05.14 15:56:09 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.41s[0m
+2024.05.14 15:56:13 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:209:23: 
+Not found: aeropuertosMap
+    val aeropuerto1 = aeropuertosMap.get(cod1)
+                      ^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:210:23: 
+Not found: aeropuertosMap
+    val aeropuerto2 = aeropuertosMap.get(cod2)
+                      ^^^^^^^^^^^^^^
+2024.05.14 15:56:14 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.38s[0m
+2024.05.14 15:56:16 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:210:23: 
+Not found: aeropuertosMap
+    val aeropuerto1 = aeropuertosMap.get(cod1)
+                      ^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:211:23: 
+Not found: aeropuertosMap
+    val aeropuerto2 = aeropuertosMap.get(cod2)
+                      ^^^^^^^^^^^^^^
+2024.05.14 15:56:16 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.3s[0m
+2024.05.14 15:58:17 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:15: 
+Found:    List[MdocApp.this.Itinerario]
+Required: List[MdocApp.this.Vuelo]
+      } yield formarItinerarios(cod1,v.Org,visitados + v.Org)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:58:18 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.32s[0m
+2024.05.14 15:58:36 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:58:36 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.35s[0m
+2024.05.14 15:58:45 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:58:45 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.31s[0m
+2024.05.14 15:59:40 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:2: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+}
+ ^
+2024.05.14 15:59:40 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.33s[0m
+May 14, 2024 4:00:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8309
+2024.05.14 16:00:06 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: 
+pruebas.worksheet.sc:217 (mdoc generated code) 
+ end of statement expected but '(' found
+       (cod1: String, cod2: String) => {
+
+
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:31: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+   (cod1: String, cod2: String) => {
+                              ^
+2024.05.14 16:00:06 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.32s[0m
+2024.05.14 16:00:09 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: 
+pruebas.worksheet.sc:217 (mdoc generated code) 
+ end of statement expected but '(' found
+       (cod1: String, cod2: String) => {
+
+
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:31: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+   (cod1: String, cod2: String) => {
+                              ^
+2024.05.14 16:00:09 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.31s[0m
+2024.05.14 16:00:33 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: 
+pruebas.worksheet.sc:217 (mdoc generated code) 
+ end of statement expected but '(' found
+       (cod1: String, cod2: String) => {
+
+
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:31: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+   (cod1: String, cod2: String) => {
+                              ^
+2024.05.14 16:00:34 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.31s[0m
+2024.05.14 16:02:22 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: 
+pruebas.worksheet.sc:217 (mdoc generated code) 
+ end of statement expected but '(' found
+       (cod1: String, cod2: String) => {
+
+
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:31: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+   (cod1: String, cod2: String) => {
+                              ^
+2024.05.14 16:02:22 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.35s[0m
+2024.05.14 16:02:35 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: 
+pruebas.worksheet.sc:217 (mdoc generated code) 
+ end of statement expected but '(' found
+       (cod1: String, cod2: String) => {
+
+
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:31: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+   (cod1: String, cod2: String) => {
+                              ^
+2024.05.14 16:02:35 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.3s[0m
+2024.05.14 16:02:38 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: 
+pruebas.worksheet.sc:217 (mdoc generated code) 
+ end of statement expected but '(' found
+       (cod1: String, cod2: String) => {
+
+
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:206:31: 
+Found:    Unit
+Required: (String, String) => List[MdocApp.this.Itinerario]
+   (cod1: String, cod2: String) => {
+                              ^
+2024.05.14 16:02:38 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.39s[0m
+2024.05.14 16:02:55 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:218:3: end of file expected but } found
+  }
+  ^
+2024.05.14 16:02:55 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.15s[0m
+2024.05.14 16:03:00 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:212:9: 
+Not found: generarItinerarios
+        generarItinerarios(cod1, cod2, Set(cod1))
+        ^^^^^^^^^^^^^^^^^^
+2024.05.14 16:03:00 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.3s[0m
+2024.05.14 16:03:12 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:03:14 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 1.29s[0m
+2024.05.14 16:03:31 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:03:31 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.75s[0m
+2024.05.14 16:04:05 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:04:06 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.71s[0m
+2024.05.14 16:05:07 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:05:07 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.64s[0m
+2024.05.14 16:13:19 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:200:75: 
+value :+ is not a member of MdocApp.this.Vuelo
+      } yield formarItinerarios(cod1,v.Org,visitados + v.Org).flatten.map(_:+v)
+                                                                          ^^^
+2024.05.14 16:13:20 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.32s[0m
+2024.05.14 16:13:43 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:13:44 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.57s[0m
+2024.05.14 16:20:32 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:170:26: 
+Not found: itinerarios2
+val obtenerItinerarios = itinerarios2(vuelosCurso, aeropuertosCurso)
+                         ^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:191:5: 
+Double definition:
+def itinerarios
+  (vuelos: List[MdocApp.this.Vuelo], aeropuertos: List[MdocApp.this.Aeropuerto])
+    : (String, String) => List[MdocApp.this.Itinerario] in class MdocApp at line 140 and
+def itinerarios
+  (vuelos: List[MdocApp.this.Vuelo], aeropuertos: List[MdocApp.this.Aeropuerto])
+    : (String, String) => List[MdocApp.this.Itinerario] in class MdocApp at line 202
+have the same type after erasure.
+
+Consider adding a @targetName annotation to one of the conflicting definitions
+for disambiguation.
+def itinerarios(vuelos:List[Vuelo],aeropuertos:List[Aeropuerto]):(String,String)=>List[Itinerario]={
+    ^
+2024.05.14 16:20:32 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.29s[0m
+2024.05.14 16:20:43 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:20:43 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.61s[0m
+2024.05.14 16:27:47 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:27:47 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.54s[0m
+2024.05.14 16:28:30 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:28:31 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.55s[0m
+May 14, 2024 4:30:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9926
+2024.05.14 16:31:05 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:31:06 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.53s[0m
+2024.05.14 16:31:58 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:31:59 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.56s[0m
+2024.05.14 16:32:55 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+May 14, 2024 4:32:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10153
+2024.05.14 16:32:55 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.57s[0m
+2024.05.14 16:33:01 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:33:01 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.53s[0m
+2024.05.14 16:35:37 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:180:35: 
+Not found: obtenerItinerarios3
+obtenerItinerarios("MID","SVCS")==obtenerItinerarios3("MID","SVCS")
+                                  ^^^^^^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:182:35: 
+Not found: obtenerItinerarios3
+obtenerItinerarios("CLO","SVCS")==obtenerItinerarios3("CLO","SVCS")
+                                  ^^^^^^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:184:34: 
+Not found: obtenerItinerarios3
+obtenerItinerarios("CLO","SVO")==obtenerItinerarios3("CLO","SVO")
+                                 ^^^^^^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:186:34: 
+Not found: obtenerItinerarios3
+obtenerItinerarios("CLO","MEX")==obtenerItinerarios3("CLO","MEX")
+                                 ^^^^^^^^^^^^^^^^^^^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:188:34: 
+Not found: obtenerItinerarios3
+obtenerItinerarios("CTG","PTY")==obtenerItinerarios3("CTG","PTY")
+                                 ^^^^^^^^^^^^^^^^^^^
+2024.05.14 16:35:38 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.42s[0m
+2024.05.14 16:35:47 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:35:47 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:35:48 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:35:48 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.62s[0m
+2024.05.14 16:35:48 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.58s[0m
+2024.05.14 16:35:49 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.62s[0m
+2024.05.14 16:37:00 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:37:01 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.54s[0m
+2024.05.14 16:37:25 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:37:25 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.51s[0m
+2024.05.14 16:37:31 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+May 14, 2024 4:37:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11070
+2024.05.14 16:37:32 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.54s[0m
+2024.05.14 16:37:32 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:37:33 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.56s[0m
+2024.05.14 16:37:33 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:37:33 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.52s[0m
+2024.05.14 16:47:34 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:47:34 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.54s[0m
+2024.05.14 16:48:44 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:48:45 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.59s[0m
+2024.05.14 16:51:02 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:51:02 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.56s[0m
+May 14, 2024 4:54:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11947
+2024.05.14 16:54:52 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:54:53 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.56s[0m
+2024.05.14 16:55:34 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:55:35 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.58s[0m
+2024.05.14 16:55:48 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:55:49 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.56s[0m
+2024.05.14 16:55:58 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 16:55:59 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.55s[0m
+2024.05.14 16:57:28 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+May 14, 2024 4:57:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12417
+2024.05.14 16:57:28 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.65s[0m
+2024.05.14 17:00:55 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:00:56 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.48s[0m
+2024.05.14 17:02:04 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:02:04 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.49s[0m
+2024.05.14 17:05:52 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:202:25: 
+value +: is not a member of MdocApp.this.Vuelo
+      } yield itRestante+:v
+                        ^^^
+2024.05.14 17:05:52 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.36s[0m
+2024.05.14 17:07:17 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:07:17 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.47s[0m
+2024.05.14 17:09:29 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:09:29 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.51s[0m
+2024.05.14 17:09:43 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:09:43 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.51s[0m
+2024.05.14 17:14:48 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:14:48 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.48s[0m
+2024.05.14 17:15:03 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:15:04 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.48s[0m
+2024.05.14 17:17:27 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:17:28 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.49s[0m
+2024.05.14 17:19:32 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:171:25: 
+Not found: itinerarios4
+val obtenerItinerarios3=itinerarios4(vuelosCurso,aeropuertosCurso)
+                        ^^^^^^^^^^^^
+2024.05.14 17:19:32 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.39s[0m
+2024.05.14 17:20:00 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:20:01 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.57s[0m
+2024.05.14 17:21:05 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:21:06 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.55s[0m
+2024.05.14 17:21:32 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:21:33 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.52s[0m
+2024.05.14 17:21:44 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:21:44 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.57s[0m
+2024.05.14 17:21:58 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:171:25: 
+Not found: itinerariosInverso
+val obtenerItinerarios3=itinerariosInverso(vuelosCurso,aeropuertosCurso)
+                        ^^^^^^^^^^^^^^^^^^
+2024.05.14 17:21:59 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.44s[0m
+2024.05.14 17:22:08 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:22:08 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.51s[0m
+2024.05.14 17:23:55 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+2024.05.14 17:23:56 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.54s[0m
+2024.05.14 17:25:11 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:268:26: 
+No given instance of type List[MdocApp.this.Vuelo] => IterableOnce[List[MdocApp.this.Vuelo]] was found for parameter toIterableOnce of method flatten in trait StrictOptimizedIterableOps
+      itinerarios.flatten // Aplanamos la lista de itinerarios generados
+                         ^
+2024.05.14 17:25:12 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.43s[0m

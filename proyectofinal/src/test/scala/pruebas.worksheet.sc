@@ -168,6 +168,7 @@ def itinerarios(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (String, St
 
 // Uso de la función itinerarios
 val obtenerItinerarios = itinerarios(vuelosCurso, aeropuertosCurso)
+val obtenerItinerarios3=itinerariosInversos(vuelosCurso,aeropuertosCurso)
 //val itinerariosPosibles = obtenerItinerarios("CLO", "SVO")
 //itinerariosPosibles.foreach(println)
 
@@ -176,16 +177,111 @@ val obtenerItinerarios = itinerarios(vuelosCurso, aeropuertosCurso)
 
 Finalmente, devolvemos una función que toma los códigos de dos aeropuertos y devuelve una lista de itinerarios posibles. Si alguno de los aeropuertos no existe en la lista proporcionada, la función devolverá una lista vacía.*/
 
-obtenerItinerarios("MID","SVCS")
+obtenerItinerarios("MID","SVCS")==obtenerItinerarios3("MID","SVCS")
 
-obtenerItinerarios("CLO","SVCS")
+obtenerItinerarios("CLO","SVCS")==obtenerItinerarios3("CLO","SVCS")
+
+obtenerItinerarios("CLO","SVO")==obtenerItinerarios3("CLO","SVO")
+
+obtenerItinerarios("CLO","MEX")==obtenerItinerarios3("CLO","MEX")
+
+obtenerItinerarios("CTG","PTY")==obtenerItinerarios3("CTG","PTY")
+
+
+obtenerItinerarios3("CLO","SVO")
 
 obtenerItinerarios("CLO","SVO")
-
-obtenerItinerarios("CLO","MEX")
-
-obtenerItinerarios("CTG","PTY")
-
 //version 1.0------------------------------------------------------------------------------------------------------------------------
 
-aeropuertosCurso.map(aeropuerto=>aeropuerto.cod->aeropuerto).toMap
+def itinerarios2(vuelos:List[Vuelo],aeropuertos:List[Aeropuerto]):(String,String)=>List[Itinerario]={
+val aeropuertosMap = aeropuertos.map(airport => airport.cod -> airport).toMap
+  def formarItinerarios(cod1:String,cod2:String,visitados:Set[String]):List[Itinerario]={
+    if(cod1==cod2) List(Nil)
+    else{
+      val vuelosHastaCod2=vuelos.filter(_.Dst==cod2) 
+      for{
+        v<-vuelosHastaCod2
+        if!visitados(v.Org)
+        itRestante<-formarItinerarios(cod1,v.Org,visitados + v.Org)
+      } yield v::itRestante
+    
+  
+    
+    }
+  }
+
+  (cod1: String, cod2: String) => {
+    val aeropuerto1 = aeropuertosMap.get(cod1)
+    val aeropuerto2 = aeropuertosMap.get(cod2)
+    (aeropuerto1, aeropuerto2) match {
+      case (Some(airport1), Some(airport2)) =>
+        formarItinerarios(cod1, cod2, Set(cod1))
+      case _ => Nil // Si alguno de los aeropuertos no existe, devolver una lista vacía
+    }
+  }
+}
+
+def itinerariosCorrecta(vuelos:List[Vuelo],aeropuertos:List[Aeropuerto]):(String,String)=>List[Itinerario]={
+val aeropuertosMap = aeropuertos.map(airport => airport.cod -> airport).toMap
+  def formarItinerarios(cod1:String,cod2:String,visitados:Set[String]):List[Itinerario]={
+    if(cod1==cod2) List(Nil)
+    else{
+      val vuelosDesdeCod1=vuelos.filter(_.Org==cod1) 
+      for{
+        v<-vuelosDesdeCod1
+        if!visitados(v.Dst)
+        itRestante<-formarItinerarios(v.Dst,cod2,visitados + v.Dst)
+       
+     } yield v::itRestante
+               
+  
+    
+    }
+  }
+
+  (cod1: String, cod2: String) => {
+    val aeropuerto1 = aeropuertosMap.get(cod1)
+    val aeropuerto2 = aeropuertosMap.get(cod2)
+    (aeropuerto1, aeropuerto2) match {
+      case (Some(airport1), Some(airport2)) =>
+        formarItinerarios(cod1, cod2, Set(cod1))
+      case _ => Nil // Si alguno de los aeropuertos no existe, devolver una lista vacía
+    }
+  }
+}
+   
+
+def itinerariosInversos(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (String, String) => List[Itinerario] = {
+  val aeropuertosMap = aeropuertos.map(airport => airport.cod -> airport).toMap
+
+  def formarItinerarios(cod1: String, cod2: String, visitados: Set[String]): List[Itinerario] = {
+    if (cod1 == cod2)
+      List(Nil)
+    else {
+      val vuelosHastaCod2 = vuelos.filter(_.Dst == cod2)
+      val itinerarios = for {
+        v <- vuelosHastaCod2
+        if !visitados(v.Org)
+        itRestante <- formarItinerarios(cod1, v.Org, visitados + v.Org)
+      } yield v :: itRestante
+
+      itinerarios.flatten // Aplanamos la lista de itinerarios generados
+    }
+  }
+
+  (cod1: String, cod2: String) => {
+    val aeropuerto1 = aeropuertosMap.get(cod1)
+    val aeropuerto2 = aeropuertosMap.get(cod2)
+    (aeropuerto1, aeropuerto2) match {
+      case (Some(airport1), Some(airport2)) =>
+        formarItinerarios(cod1, cod2, Set(cod2)) // Comenzamos desde el aeropuerto de destino (cod2)
+      case _ => Nil // Si alguno de los aeropuertos no existe, devolver una lista vacía
+    }
+  }
+}
+
+
+
+  
+
+
