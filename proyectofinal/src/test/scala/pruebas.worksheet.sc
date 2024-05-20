@@ -294,9 +294,7 @@ def tiempoVueloIt2(
 
 }
 
-obtenerItinerarios("MID", "SVCS")
 
-tiempoVueloIt2(obtenerItinerarios("MID", "SVCS")(0), aeropuertosCurso)
 
 /*def tiempoViaje(itinerario: Itinerario): Int = {
 
@@ -348,12 +346,6 @@ val tiempos_viaje=tiempos_diff.map(t=>t._1*60+t._2).sum*/
 
 }*/
 
-
-
-
-
-
-tiempoEsperaIt(it)
 
 "esta funcion calcula el tiempo de espera en minutos sumando el tiempo que transcurre entre la llegada de un vuelo y el comienzo del siguiente.Expreciones For"
 def tiempoEsperaIt(itinerario: Itinerario): Int = {
@@ -488,22 +480,36 @@ def itinerariosTiempo2(
     }
 
 }
+//-------------------------------------------------pruevas-----------------------------------------
 
 
+/*def itinerariosTiempoE(
+    vuelos: List[Vuelo],
+    aeropuertos: List[Aeropuerto]
+): (String, String) => List[(Int,Int,Itinerario)] = { 
+  (cod1: String, cod2: String) =>
+  {
+    val it = itinerarios(vuelos, aeropuertos)(cod1, cod2)
+    if (it.isEmpty) Nil
 
-val itin=obtenerItinerarios("CLO","SVO")(3)
+    else{
+      val tiemposIt = for {
+      i <- it
 
-tiempoVueloIt2(itin,aeropuertosCurso)+tiempoEsperaIt(itin)
+    } yield (tiempoVueloIt2(i,aeropuertos),tiempoEsperaIt2(i), i)
+    tiemposIt
+
+}
+   
+    }
+
+}
+
+itinerariosTiempoE(vuelosCurso,aeropuertosCurso)("CLO","SVO")
 
 
-
-
-
-val itsTiemposCurso = itinerariosTiempo2(vuelosCurso, aeropuertosCurso)
-
-itsTiemposCurso("MID","SVCS")
-
-
-
-
-sumarHoras(2,20,15,0,'-')
+res14: List[Tuple3[Int, Int, Itinerario]] = List(
+  (680,0,List(Vuelo(AVA,9432,CLO,7,0,SVO,2,20,4))), 
+  (1220,720,List(Vuelo(AVA,9432,CLO,7,0,BOG,8,0,0), Vuelo(IBERIA,505,BOG,18,0,MAD,12,0,0), Vuelo(IBERIA,506,MAD,14,0,SVO,23,20,0))), 
+  (1220,840,List(Vuelo(AVA,9432,CLO,7,0,BOG,8,0,0), Vuelo(IBERIA,505,BOG,18,0,MAD,12,0,0), Vuelo(IBERIA,507,MAD,16,0,SVO,1,20,0))), 
+  (1560,540,List(Vuelo(TURKISH,7799,CLO,7,0,IST,14,0,3), Vuelo(QATAR,5566,IST,23,0,SVO,2,0,0))))*/

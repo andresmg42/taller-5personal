@@ -8292,3 +8292,340 @@ pruebas.worksheet.sc:369 (mdoc generated code)
 
 
 2024.05.20 12:06:43 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.95s[0m
+2024.05.20 13:00:45 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala[0m
+2024.05.20 13:00:45 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:45 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:45 WARN  Could not find semantic tokens for: file:///home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala[0m
+2024.05.20 13:00:47 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:47 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:47 WARN  Could not find semantic tokens for: file:///home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala[0m
+2024.05.20 13:00:48 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:48 WARN  Could not find semantic tokens for: file:///home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala[0m
+2024.05.20 13:00:47 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:48 WARN  Could not find semantic tokens for: file:///home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala[0m
+2024.05.20 13:00:48 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:48 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:49 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:49 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:49 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:50 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:50 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:51 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:51 WARN  Could not find semantic tokens for: file:///home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala[0m
+2024.05.20 13:00:51 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:53 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:53 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:53 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:53 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:55 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:55 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:55 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:57 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:58 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:00:58 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:01:00 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:01:00 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:01:01 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:01:01 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:01:01 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:01:01 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:01:05 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:369 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:01:06 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.96s[0m
+2024.05.20 13:02:09 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:369 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:02:09 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.78s[0m
+2024.05.20 13:02:26 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:02:30 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:02:30 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:02:31 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:369 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:02:32 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.91s[0m
+2024.05.20 13:02:55 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:02:58 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:02:59 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:02:59 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:02:59 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:02:59 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:01 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:06 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:09 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:12 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:12 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:15 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:15 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:16 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:22 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:369 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:03:23 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.76s[0m
+2024.05.20 13:03:47 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:48 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:48 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:50 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:50 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:03:52 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:369 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:03:52 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.79s[0m
+2024.05.20 13:03:58 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:01 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:01 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:06 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:06 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:06 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:07 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:08 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:08 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:10 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:10 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:11 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:369 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:04:12 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.82s[0m
+2024.05.20 13:04:34 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:39 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:39 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:40 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:40 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:40 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:40 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:04:41 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:369 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:04:42 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.74s[0m
+2024.05.20 13:05:31 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:33 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:33 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:34 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:35 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:35 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:37 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:354 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:05:38 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.75s[0m
+2024.05.20 13:05:49 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:52 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:52 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:52 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala[0m
+2024.05.20 13:05:52 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:52 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:54 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:54 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:05:56 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:354 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:05:56 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.76s[0m
+2024.05.20 13:06:06 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:06:07 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:06:07 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:06:11 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:06:14 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:06:14 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:06:16 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:06:23 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:06:40 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:06:40 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:06:44 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala[0m
+2024.05.20 13:06:44 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:06:47 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:354 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:06:47 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.8s[0m
+2024.05.20 13:06:50 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:354 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:06:51 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.72s[0m
+2024.05.20 13:07:00 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:09:41 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:354 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:09:42 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.85s[0m
+2024.05.20 13:09:42 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/main/scala/Itinerarios/package.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.20 13:15:12 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:500:2: 
+Found:    Unit
+Required: List[(Int, Int, MdocApp.this.Itinerario)]
+}
+ ^
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:486:5: 
+Double definition:
+def itinerariosTiempo2
+  (vuelos: List[MdocApp.this.Vuelo], aeropuertos: List[MdocApp.this.Aeropuerto])
+    : (String, String) => List[MdocApp.this.Itinerario] in class MdocApp at line 340 and
+def itinerariosTiempo2
+  (vuelos: List[MdocApp.this.Vuelo], aeropuertos: List[MdocApp.this.Aeropuerto])
+    : (String, String) => List[(Int, Int, MdocApp.this.Itinerario)] in class MdocApp at line 368
+have the same type after erasure.
+
+Consider adding a @targetName annotation to one of the conflicting definitions
+for disambiguation.
+def itinerariosTiempo2(
+    ^
+[33mwarning[39m: 
+pruebas.worksheet.sc:354 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:15:13 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.62s[0m
+2024.05.20 13:15:21 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[31merror[39m: proyectofinal/src/test/scala/pruebas.worksheet.sc:500:2: 
+Found:    Unit
+Required: List[(Int, Int, MdocApp.this.Itinerario)]
+}
+ ^
+[33mwarning[39m: 
+pruebas.worksheet.sc:354 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:15:21 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.57s[0m
+2024.05.20 13:16:16 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:354 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+[33mwarning[39m: 
+pruebas.worksheet.sc:382 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        tiemposIt
+
+
+2024.05.20 13:16:16 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.77s[0m
+2024.05.20 13:17:05 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:354 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+[33mwarning[39m: 
+pruebas.worksheet.sc:382 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        tiemposIt
+
+
+2024.05.20 13:17:05 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.77s[0m
+2024.05.20 13:17:55 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:512: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.05.20 13:29:24 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:487: error: unclosed comment
+  /*def itinerariosTiempoE(
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.05.20 13:29:36 WARN  no build target for: /home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal/src/test/scala/pruebas.worksheet.sc[0m
+[33mwarning[39m: 
+pruebas.worksheet.sc:354 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+        val itsTiempo = quickSort[(Int, Itinerario)](
+
+
+2024.05.20 13:29:37 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.73s[0m
