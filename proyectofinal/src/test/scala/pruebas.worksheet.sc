@@ -56,9 +56,6 @@ val vuelosCurso = List(
 
 
 
-
-
-
 //chat gpt ---------------------------------------------------------------------------------------------------------------------------------------------
 
 /*def itinerarios(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (String, String) => List[Itinerario] = {
@@ -224,51 +221,9 @@ def itinerariosInversos(
   }
 }
 
-/*def itinerariosOpt(vuelos:List[Vuelo],aeropuertos:List[Aeropuerto]):(String,String)=>List[Itinerario]={
-val aeropuertosMap = aeropuertos.map(airport => airport.cod -> airport).toMap
-  def formarItinerarios(v:Vuelo,cod1:String,cod2:String,visitados:Set[String]):List[Itinerario]={
-    if(cod1==cod2) List(List(v))
-    else{
-      val vuelosDesdeCod1=vuelos.filter(_.Org==cod1)
-      for{
-        v<-vuelosDesdeCod1
-        if!visitados(v.Dst)
-        itRestante<-formarItinerarios(v,v.Dst,cod2,visitados + v.Dst)
-
-     } yield v::itRestante
 
 
 
-    }
-  }
-
-  (cod1: String, cod2: String) => {
-    val aeropuerto1 = aeropuertosMap.get(cod1)
-    val aeropuerto2 = aeropuertosMap.get(cod2)
-    (aeropuerto1, aeropuerto2) match {
-      case (Some(airport1), Some(airport2)) =>
-        formarItinerarios(cod1, cod2, Set(cod1))
-      case _ => Nil // Si alguno de los aeropuertos no existe, devolver una lista vacía
-    }
-  }
-}*/
-
-/*def sumarHoras(h1:Int,m1:Int,h2:Int,m2:Int,op:String):Int={
-
-val hora_num1= m1 match{
-  case 0=>(h1.toString+m1.toString+"0").toInt
-  case _=>(h1.toString + m1.toString).toInt
-}
-val hora_num2= m2 match{
-  case 0=>(h2.toString+m2.toString+"0").toInt
-  case _=>(h2.toString + m2.toString).toInt
-}
-val result= op match{
-  case"+"=>(hora_num1 + hora_num2) match{ case }
-  case "-"=>(hora_num1-hora_num2)
-}
-
-}*/
 
 def sumarHoras(h1: Int, m1: Int, h2: Int, m2: Int, op: Char): (Int, Int) = {
   val H1 = h1 * 60 + m1
@@ -284,50 +239,19 @@ def sumarHoras(h1: Int, m1: Int, h2: Int, m2: Int, op: Char): (Int, Int) = {
   } else (suma / 60, suma % 60)
 }
 
-def sumarHoras2(h1: Int, m1: Int, h2: Int, m2: Int): (Int, Int) = {
-  val H1 = h1 * 60 + m1
-  val H2 = h2 * 60 + m2
-  val suma = H1 + H2
-  if (suma < 0) {
-    val result = suma + 1440
 
-    (result / 60, result % 60)
-  } else (suma / 60, suma % 60)
-}
 
-val aeropuertosMap =
-  aeropuertosCurso.map(airport => airport.cod -> airport).toMap
+//val aeropuertosMap =aeropuertosCurso.map(airport => airport.cod -> airport).toMap
 
-def convertirHorasGMT(h: Int, m: Int, gmt: Int): (Int, Int) =
-  if (gmt < 0) sumarHoras(h, m, -gmt, 0, '+') else sumarHoras(h, m, gmt, 0, '-')
+def convertirHorasGMT(h: Int, m: Int, gmt: Int): (Int, Int) =if (gmt < 0) sumarHoras(h, m, -gmt, 0, '+') else sumarHoras(h, m, gmt, 0, '-')
 
-obtenerItinerarios("CLO", "SVO")(1)
-  .map(vuelo => {
-    val gmtO = aeropuertosMap(vuelo.Org).GMT / 100
-    val gmtD = aeropuertosMap(vuelo.Dst).GMT / 100
-    val HGMTO = convertirHorasGMT(vuelo.HS, vuelo.MS, gmtO)
-    val HGMTD = convertirHorasGMT(vuelo.HL, vuelo.ML, gmtD)
-    vuelo.Num -> sumarHoras(HGMTD._1, HGMTD._2, HGMTO._1, HGMTO._2, '-')
 
-  })
-  .toMap
-
-val l = obtenerItinerarios("CLO", "SVO")(1)
-  .map(vuelo => {
-    val gmtO = aeropuertosMap(vuelo.Org).GMT / 100
-    val gmtD = aeropuertosMap(vuelo.Dst).GMT / 100
-    val HGMTO = convertirHorasGMT(vuelo.HS, vuelo.MS, gmtO)
-    val HGMTD = convertirHorasGMT(vuelo.HL, vuelo.ML, gmtD)
-    sumarHoras(HGMTD._1, HGMTD._2, HGMTO._1, HGMTO._2, '-')
-
-  })
-
-val it=obtenerItinerarios("CLO", "SVO")(1)
+val it = obtenerItinerarios("CLO", "SVO")(1)
 
 //l.reduceLeft(sumarHoras())
 
 "esta funcion calcula el tiempo total de vuelo pero lo devuelve en horas y utiliza recursion"
-def tiempoVueloIt(itinerario: Itinerario): (Int, Int) = {
+/*def tiempoVueloIt(itinerario: Itinerario): (Int, Int) = {
   val horasViajeItinerario = itinerario.map(vuelo => {
     val gmtO = aeropuertosMap(vuelo.Org).GMT / 100
     val gmtD = aeropuertosMap(vuelo.Dst).GMT / 100
@@ -346,15 +270,17 @@ def tiempoVueloIt(itinerario: Itinerario): (Int, Int) = {
   }
   sumaTiempo(horasViajeItinerario)
 
-}
+}*/
 
-tiempoVueloIt(obtenerItinerarios("CLO", "SVO")(1))
 
-val h1 = sumarHoras(1, 0, 12, 0, '+')
-sumarHoras(h1._1, h1._2, 7, 20, '+')
 
 "esta funcion caclula el tiempo total de vuelo pero lo devuelve en minutos y no utiliza recursion"
-def tiempoVueloIt2(itinerario: Itinerario): Int = {
+def tiempoVueloIt2(
+    itinerario: Itinerario,
+    aeropuertos: List[Aeropuerto]
+): Int = {
+
+  val aeropuertosMap = aeropuertos.map(airport => airport.cod -> airport).toMap
   val horasViajeItinerario = itinerario.map(vuelo => {
     val gmtO = aeropuertosMap(vuelo.Org).GMT / 100
     val gmtD = aeropuertosMap(vuelo.Dst).GMT / 100
@@ -367,6 +293,10 @@ def tiempoVueloIt2(itinerario: Itinerario): Int = {
   horasViajeItinerario.map(hora => hora._1 * 60 + hora._2).sum
 
 }
+
+obtenerItinerarios("MID", "SVCS")
+
+tiempoVueloIt2(obtenerItinerarios("MID", "SVCS")(0), aeropuertosCurso)
 
 /*def tiempoViaje(itinerario: Itinerario): Int = {
 
@@ -390,8 +320,6 @@ tH._1*60+tH._2
 
 }*/
 
-
-
 /*tiempoEsperaIt(it)
 
 val tiempos=it.map(vuelo=>convertirHorasGMT(vuelo.HS,vuelo.MS,aeropuertosMap(vuelo.Org).GMT/100)):+convertirHorasGMT(it.last.HL,it.last.ML,aeropuertosMap(it.last.Dst).GMT/100)
@@ -399,32 +327,40 @@ val tiempos_diff=tiempos.zip(tiempos.tail).map{case (a,b)=>sumarHoras(b._1,b._2,
 val tiempos_viaje=tiempos_diff.map(t=>t._1*60+t._2).sum*/
 
 
+/*def tiempoViaje(it: Itinerario, aeropuertos: List[Aeropuerto]): Int = {
+  if (it.length == 1) tiempoVueloIt2(it, aeropuertos)
+  else {
+    val aeropuertosMap = aeropuertosCurso.map(airport => airport.cod -> airport).toMap
 
-"esta funcion calcula el tiempo total de vuelo de un itinerario"
-
-def tiempoViaje(it:Itinerario):Int={
-  if(it.isEmpty) 0
-  else{
-  val t_entre_Org=it.map(v=>convertirHorasGMT(v.HS,v.MS,aeropuertosMap(v.Org).GMT/100))
-  val t_total=t_entre_Org:+convertirHorasGMT(it.last.HL,it.last.ML,aeropuertosMap(it.last.Dst).GMT/100)
-  val tiempos_diff=t_total.zip(t_total.tail).map{case(a,b)=>sumarHoras(b._1,b._2,a._1,a._2,'-')}
-  tiempos_diff.map(t=>t._1*60+t._2).sum
+    val t_Org = it.map(v =>convertirHorasGMT(v.HS, v.MS, aeropuertosMap(v.Org).GMT / 100)
+    )
+    val t_total = t_Org :+ convertirHorasGMT(
+      it.last.HL,
+      it.last.ML,
+      aeropuertosMap(it.last.Dst).GMT / 100
+    )
+    val t_entre_org = t_total.zip(t_total.tail).map { case (a, b) =>
+      sumarHoras(b._1, b._2, a._1, a._2, '-')
+    }
+    t_entre_org.map(t => t._1 * 60 + t._2).sum
 
   }
-  
-}
 
-
-tiempoViaje(it)-tiempoVueloIt2(it)
+}*/
 
 
 
-"esta funcion cula el tiempo de espera en minutos sumando el tiempo que transcurre entre la llegada de un vuelo y el comienzo del siguiente.!VALORES VARIABLES"
+
+
+
+tiempoEsperaIt(it)
+
+"esta funcion calcula el tiempo de espera en minutos sumando el tiempo que transcurre entre la llegada de un vuelo y el comienzo del siguiente.Expreciones For"
 def tiempoEsperaIt(itinerario: Itinerario): Int = {
   if (itinerario.isEmpty) 0
   else {
     val result = for {
-      i <- 0 until itinerario.length-1
+      i <- 0 until itinerario.length - 1
       v = itinerario(i)
       vNext = itinerario(i + 1)
 
@@ -436,33 +372,138 @@ def tiempoEsperaIt(itinerario: Itinerario): Int = {
 
 }
 
+"esta funcion calcula el tiempo de espera en minutos sumando el tiempo que transcurre entre la llegada de un vuelo y el comienzo del siguiente.Expreciones Map"
+def tiempoEsperaIt2(itinerario:Itinerario):Int={
+  if(itinerario.isEmpty) 0
+  else{
+    val result=(0 until itinerario.length - 1).map(i =>{
+      val v=itinerario(i)
+      val vNext=itinerario(i+1)
+      sumarHoras(vNext.HS, vNext.MS, v.HL, v.ML, '-')
+
+    }).toList
+
+    result.map(hora => hora._1 * 60 + hora._2).sum
+  }
+}
+val iti2=obtenerItinerarios("CLO","SVO")(2)
+
+tiempoEsperaIt(iti2)
+
+tiempoEsperaIt2(iti2)
 
 
 
 
 
 
-//L i s t ( Vuelo (AVA, 9 4 3 2 ,CLO, 7 , 0 ,BOG, 8 , 0 , 0 ) , Vuelo ( IBERIA , 5 0 5 ,BOG, 1 8 , 0 ,MAD, 1 2 , 0 , 0 ) , Vuelo ( IBERIA , 5 0 7 ,MAD, 1 6 , 0 ,SVO, 1 , 2 0 , 0 ) )
-
-val gmtS=convertirHorasGMT(7,0,-5)
-val gmtL=convertirHorasGMT(18,0,-5)
-
-sumarHoras(gmtL._1,gmtL._2,gmtS._1,gmtS._2,'-')
-
-
-val gmtS1=convertirHorasGMT(18,0,-5)
-val gmtL1=convertirHorasGMT(14,0,1)
-
-sumarHoras(gmtL1._1,gmtL1._2,gmtS1._1,gmtS1._2,'-')
-
-val gmtS2=convertirHorasGMT(14,0,1)
-val gmtL2=convertirHorasGMT(23,20,3)
-
-sumarHoras(gmtL2._1,gmtL2._2,gmtS2._1,gmtS2._2,'-')
 
 
 
 
-val lq=List(1)
+def menoresQue_noMenoresQue[T](
+    l: List[T],
+    v: T,
+    comp: (T, T) => Boolean
+): (List[T], List[T]) = {
+  def aux(l: List[T], l1: List[T], l2: List[T]): (List[T], List[T]) = {
+    if (l.isEmpty) (l1, l2)
+    else {
+      val head = l.head
+      val tail = l.tail
+      if (comp(head, v)) aux(tail, head :: l1, l2)
+      else aux(tail, l1, head :: l2)
+    }
+  }
 
-lq.last
+  aux(l, List(), List())
+}
+
+def quickSort[T](comp: (T, T) => Boolean): List[T] => List[T] = {
+  def quick(l: List[T]): List[T] = {
+
+    if (l.isEmpty || l.tail.isEmpty) l
+    else {
+      val pivot = l.head
+      val (less, greater) = menoresQue_noMenoresQue(l.tail, pivot, comp)
+      val less1 = quick(less)
+      val greater1 = quick(greater)
+      less1 ++ (pivot :: greater1)
+
+    }
+  }
+  quick
+}
+
+/*def itinerariosTiempo(
+    vuelos: List[Vuelo],
+    aeropuertos: List[Aeropuerto]
+): (String, String) => List[Itinerario] = { (cod1: String, cod2: String) =>
+  {
+    val it = itinerarios(vuelos, aeropuertos)(cod1, cod2)
+    val tiemposIt = for {
+      i <- it
+
+    } yield (tiempoViaje(i, aeropuertos), i)
+
+    val itsTiempo = quickSort[(Int, Itinerario)](
+      (a: (Int, Itinerario), b: (Int, Itinerario)) => a._1 < b._1
+    )(tiemposIt.toList) map (t => t._2)
+    if (itsTiempo.isEmpty) Nil
+    else {
+      (for {
+        i <- 0 until itsTiempo.length
+        if i <= 3
+      } yield itsTiempo(i)).toList
+    }
+
+  }
+
+}*/
+
+"funcion que calcula los itinerarios con menos tiempo de duracion"
+def itinerariosTiempo2(
+    vuelos: List[Vuelo],
+    aeropuertos: List[Aeropuerto]
+): (String, String) => List[Itinerario] = { (cod1: String, cod2: String) =>
+  {
+    val it = itinerarios(vuelos, aeropuertos)(cod1, cod2)
+    if (it.isEmpty) Nil
+
+    else{
+      val tiemposIt = for {
+      i <- it
+
+    } yield (tiempoVueloIt2(i,aeropuertos)+tiempoEsperaIt2(i), i)
+
+    val itsTiempo = quickSort[(Int, Itinerario)](
+      (a: (Int, Itinerario), b: (Int, Itinerario)) => a._1 < b._1
+    )(tiemposIt.toList) map (t => t._2)
+      (for {
+        i <- 0 until itsTiempo.length
+        if i <= 2
+      } yield itsTiempo(i)).toList
+}
+   
+    }
+
+}
+
+
+
+val itin=obtenerItinerarios("CLO","SVO")(3)
+
+tiempoVueloIt2(itin,aeropuertosCurso)+tiempoEsperaIt(itin)
+
+
+
+
+
+val itsTiemposCurso = itinerariosTiempo2(vuelosCurso, aeropuertosCurso)
+
+itsTiemposCurso("MID","SVCS")
+
+
+
+
+sumarHoras(2,20,15,0,'-')
