@@ -133,7 +133,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-17-openjdk-amd64",
+                "home": "/home/andresuv/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35",
                 "options": [
                     "-Duser.dir=/home/andresuv/cuartoSemestre/PFC/proyecto/proyectocode/proyectofinal"
                 ]

@@ -58,7 +58,7 @@ val vuelosCurso = List(
 
 //chat gpt ---------------------------------------------------------------------------------------------------------------------------------------------
 
-/*def itinerarios(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (String, String) => List[Itinerario] = {
+def itinerarios2(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (String, String) => List[Itinerario] = {
   // Crear un mapa de aeropuertos para un acceso más rápido
   val aeropuertosMap = aeropuertos.map(airport => airport.cod -> airport).toMap
 
@@ -80,19 +80,16 @@ val vuelosCurso = List(
 
   // Función final que devuelve los itinerarios dados los códigos de los aeropuertos
   (cod1: String, cod2: String) => {
-    val aeropuerto1 = aeropuertosMap.get(cod1)
-    val aeropuerto2 = aeropuertosMap.get(cod2)
-    (aeropuerto1, aeropuerto2) match {
-      case (Some(airport1), Some(airport2)) =>
+        //verificar si los aeropuertos existen
+        if (aeropuertosMap.contains(cod1) && aeropuertosMap.contains(cod2))
         generarItinerarios(cod1, cod2, Set(cod1))
-      case _ => Nil // Si alguno de los aeropuertos no existe, devolver una lista vacía
+        else Nil // Si alguno de los aeropuertos no existe, devolver una lista vacía
     }
   }
-}*/
 
 // Uso de la función itinerarios
 val obtenerItinerarios = itinerarios(vuelosCurso, aeropuertosCurso)
-val obtenerItinerarios3 = itinerariosInversos(vuelosCurso, aeropuertosCurso)
+val obtenerItinerarios3 = itinerarios2(vuelosCurso, aeropuertosCurso)
 //val itinerariosPosibles = obtenerItinerarios("CLO", "SVO")
 //itinerariosPosibles.foreach(println)
 
@@ -180,7 +177,7 @@ def itinerarios(
 }
  */
 
-def itinerariosInversos(
+/*def itinerariosInversos(
     vuelos: List[Vuelo],
     aeropuertos: List[Aeropuerto]
 ): (String, String) => List[Itinerario] = {
@@ -220,10 +217,7 @@ def itinerariosInversos(
     }
   }
 }
-
-
-
-
+*/
 
 def sumarHoras(h1: Int, m1: Int, h2: Int, m2: Int, op: Char): (Int, Int) = {
   val H1 = h1 * 60 + m1
@@ -348,7 +342,7 @@ val tiempos_viaje=tiempos_diff.map(t=>t._1*60+t._2).sum*/
 
 
 "esta funcion calcula el tiempo de espera en minutos sumando el tiempo que transcurre entre la llegada de un vuelo y el comienzo del siguiente.Expreciones For"
-def tiempoEsperaIt(itinerario: Itinerario): Int = {
+/*def tiempoEsperaIt(itinerario: Itinerario): Int = {
   if (itinerario.isEmpty) 0
   else {
     val result = for {
@@ -362,7 +356,7 @@ def tiempoEsperaIt(itinerario: Itinerario): Int = {
 
   }
 
-}
+}*/
 
 "esta funcion calcula el tiempo de espera en minutos sumando el tiempo que transcurre entre la llegada de un vuelo y el comienzo del siguiente.Expreciones Map"
 def tiempoEsperaIt2(itinerario:Itinerario):Int={
@@ -379,18 +373,6 @@ def tiempoEsperaIt2(itinerario:Itinerario):Int={
   }
 }
 val iti2=obtenerItinerarios("CLO","SVO")(2)
-
-tiempoEsperaIt(iti2)
-
-tiempoEsperaIt2(iti2)
-
-
-
-
-
-
-
-
 
 
 def menoresQue_noMenoresQue[T](
@@ -513,3 +495,7 @@ res14: List[Tuple3[Int, Int, Itinerario]] = List(
   (1220,720,List(Vuelo(AVA,9432,CLO,7,0,BOG,8,0,0), Vuelo(IBERIA,505,BOG,18,0,MAD,12,0,0), Vuelo(IBERIA,506,MAD,14,0,SVO,23,20,0))), 
   (1220,840,List(Vuelo(AVA,9432,CLO,7,0,BOG,8,0,0), Vuelo(IBERIA,505,BOG,18,0,MAD,12,0,0), Vuelo(IBERIA,507,MAD,16,0,SVO,1,20,0))), 
   (1560,540,List(Vuelo(TURKISH,7799,CLO,7,0,IST,14,0,3), Vuelo(QATAR,5566,IST,23,0,SVO,2,0,0))))*/
+
+
+sumarHoras(11,0,12,0,'-')
+sumarHoras(2,0,23,0,'-')
